@@ -1,0 +1,123 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #1b74b4;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: #d11616;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+nav{
+    background-color: #444444;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a{
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover{
+    color: #ffcc00;
+}
+.button{
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #005f5f;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.list-item{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.list-item:hover{
+    background-color: #f9f9f9;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.table th, .table td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table th{
+    background-color: #f2f2f2;
+}
+.table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+.table tr:hover{
+    background-color: #e0e0e0;
+}
+.form-input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-input:focus{
+    border-color: #66afe9;
+    outline: none;
+}
+.form-submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
